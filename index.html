@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Truculenta:wght@600&display=swap" rel="stylesheet">
+    <title>Atomic-Burger Ordering Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Truculenta:wght@600&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="image/logo2.jpeg" alt="Atomic_Vishnu_logo">
+        </div>
+        <ul class="nav-list">
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#Menu">Menu</a></li>
+            <li class="item"><a href="#About Us">About Us</a></li>
+            <li class="item"><a href="#Contact Us">Contact Us</a></li>
+            <li class="item"><a href="#Sign In">Sign In</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="home">
+        <div id="heading_div">
+            <h1 class="h-primary">
+                Our delicious Food
+                straight to your door
+                with complete saftey!
+            </h1>
+        </div>
+    </section>
+
+
+    <section class="services-container">
+        <h1 class="h1_menu">Our Speciality</h1>
+        <div id="services">
+            <div class="box">
+                <img src="image/pizza_png_2.png" alt="pizza_png">
+                <h3 class="h-secondary centre">Pizza <br> $ 5/-</h3>
+            </div>
+            <div class="box">
+                <img src="image/pasta_Image_png.png" alt="pizza_png">
+                <h3 class="h-secondary centre">Pasta <br> $ 30/-</h3>
+            </div>
+            <div class="box">
+                <img src="image/burger_png.png" alt="pizza_png">
+                <h3 class="h-secondary centre">Burger <br> $ 25/-</h3>
+            </div>
+            <div class="box">
+                <img src="image/fries_PNG71.png" alt="pizza_png">
+                <h3 class="h-secondary centre">French fries <br> $ 20/-</h3>
+            </div>
+            <div class="box">
+                <img src="image/drinks_png.png" alt="pizza_png">
+                <h3 class="h-secondary centre">Cold Drinks <br> $ 10/-</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="form_main">
+        <div class="form_background">
+            <h1 id="order_now">Order Now ! Our Tasty and Fresh Food</h1>
+            <form action="backend.php" class="form_handle">
+                <div class="form_element">
+                    First Name: <input type="text" , placeholder="Enter your first name" id="inp_first_name"
+                        class="inp_B-R">
+                </div>
+                <div class="form_element">
+                    Last Name: <input type="text" , placeholder="Enter your last name" id="inp_last_name"
+                        class="inp_B-R">
+                </div>
+                <div class="form_element">
+                    Email: <input type="email" name="" id="inp_email" placeholder="Enter You Email" class="inp_B-R">
+                </div>
+                <div class="form_element">
+                    Phone Number: <input type="text" , placeholder="Enter Your Phone Number" id="inp_phone_number"
+                        class="inp_B-R">
+                </div>
+                <div class="form_element">
+                    Address: <input type="text" , placeholder="Enter the Address" id="inp_address" class="inp_B-R">
+                </div>
+                <div class="form_element">
+                    Select Meals:
+                </div>
+                <div class="form_element">
+                    Pizza: <input type="checkbox" name="Pizza"> <input type="number" name="Amount of item"
+                        placeholder="Amount of Meals" id="inp_pizza" class="inp_B-R">
+                </div>
+                <div class="form_element">
+                    Pasta: <input type="checkbox" name="Pasta"> <input type="number" name="Amount of item"
+                        placeholder="Amount of Meals" id="inp_pasta" class="inp_B-R">
+                </div>
+                <div class="form_element">
+                    Burger: <input type="checkbox" name="Burger"> <input type="number" name="Amount of item"
+                        placeholder="Amount of Meals" id="inp_burger" class="inp_B-R">
+                </div>
+                <div class="form_element">
+                    French Fries: <input type="checkbox" name="French Fries" id=""> <input type="number"
+                        name="Amount of item" id="inp_french_fries" placeholder="Amount of Meals" class="inp_B-R">
+                </div>
+                <div class="form_element">
+                    Cold Drinks: <input type="checkbox" name="Cold Drinks"> <input type="number" name="Amount of item"
+                        id="inp_drinks" placeholder="Amount of Meals" class="inp_B-R">
+                </div>
+                <div class="form_element">
+                    <input type="submit" value="Order Now" id="submit" class="inp_B-R">
+                </div>
+        </div>
+        </form>
+    </section>
+
+
+    <section class="third_section">
+        <div class="Why_To_choose_us">
+            <img src="/image/why to choose_background.png" alt="Why to choose us?">
+        </div>
+        <div id="heading1">
+            <h1>Free and Fast Delivery On First Order</h1>
+        </div>
+        <div id="heading2">
+            <h1>Best and Tasty Food In Your City</h1>
+        </div>
+    </section>
+
+</body>
+
+</html>
